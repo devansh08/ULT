@@ -25,4 +25,4 @@ except Exception:
 
 print(text)
 f=open("speech.txt","w")
-f.write(text.encode('utf8'))
+f.write(text.encode('utf-8'))
